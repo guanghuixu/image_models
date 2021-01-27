@@ -277,8 +277,10 @@ def _parse_args():
 
 
 def main():
-    setup_default_logging()
     args, args_text = _parse_args()
+    if not os.path.exists(args.output):
+        os.mkdir(args.output)
+    setup_default_logging(log_path=args.output+'/'+args.model+'.log')
 
     args.prefetcher = not args.no_prefetcher
     args.distributed = False
