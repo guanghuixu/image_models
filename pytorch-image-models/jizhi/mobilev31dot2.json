@@ -1,0 +1,10 @@
+{
+    "Token": "t0jfFLIzuz0PPvrCmY92OA",
+    "business_flag": "DrugAI_CQ",
+    "model_local_file_path": "/apdcephfs/share_1318108/huberyniu/inas",
+    "host_num": 1,
+    "host_gpu_num": 2,
+    "is_elasticity": false,
+    "keep_alive": false,
+    "image_full_name": "mirrors.tencent.com/h-dockers/g-tlinux2.2-python3.6-cuda10.2-cudnn8.0-pytorch1.5-torchvision0.6-openmpi4.0.3-nccl2.8.3-ofed4.6-horovod:inas0.2.0"
+}
