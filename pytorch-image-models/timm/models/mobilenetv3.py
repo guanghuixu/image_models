@@ -365,6 +365,35 @@ def mobilenetv3_large_100(pretrained=False, **kwargs):
     model = _gen_mobilenet_v3('mobilenetv3_large_100', 1.0, pretrained=pretrained, **kwargs)
     return model
 
+@register_model
+def mobilenetv3_large_150(pretrained=False, **kwargs):
+    """ MobileNet V3 """
+    model = _gen_mobilenet_v3('mobilenetv3_large_100', 1.5, pretrained=pretrained, **kwargs)
+    return model
+
+@register_model
+def mobilenetv3_large_140(pretrained=False, **kwargs):
+    """ MobileNet V3 """
+    model = _gen_mobilenet_v3('mobilenetv3_large_100', 1.4, pretrained=pretrained, **kwargs)
+    return model
+
+@register_model
+def mobilenetv3_large_130(pretrained=False, **kwargs):
+    """ MobileNet V3 """
+    model = _gen_mobilenet_v3('mobilenetv3_large_100', 1.3, pretrained=pretrained, **kwargs)
+    return model
+
+@register_model
+def mobilenetv3_large_120(pretrained=False, **kwargs):
+    """ MobileNet V3 """
+    model = _gen_mobilenet_v3('mobilenetv3_large_100', 1.2, pretrained=pretrained, **kwargs)
+    return model
+
+@register_model
+def mobilenetv3_large_110(pretrained=False, **kwargs):
+    """ MobileNet V3 """
+    model = _gen_mobilenet_v3('mobilenetv3_large_100', 1.1, pretrained=pretrained, **kwargs)
+    return model
 
 @register_model
 def mobilenetv3_small_075(pretrained=False, **kwargs):
